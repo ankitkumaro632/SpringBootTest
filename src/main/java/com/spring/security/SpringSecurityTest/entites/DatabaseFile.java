@@ -1,8 +1,8 @@
 package com.spring.security.SpringSecurityTest.entites;
 
+import jakarta.persistence.*;
 import org.hibernate.annotations.GenericGenerator;
 
-import javax.persistence.*;
 
 @Entity
 @Table(name = "files")
